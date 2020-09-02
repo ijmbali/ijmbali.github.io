@@ -181,7 +181,7 @@
                     </div>
                     <div class="col-lg-6">
                         <form>
-                            <div class="form-group ftco-animate">
+                            <div class="form-group  ftco-animate">
                               <label for="email">Email address</label>
                               <input type="email" class="form-control" id="email">
                             </div>
