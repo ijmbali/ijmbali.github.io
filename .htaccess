@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^\$ index.php [L]
+RewriteRule ^index\.html$ index.php [L]
+RewriteRule ^login\.html$ login.php [L]
+RewriteRule ^logout\.html$ login.php?md=logout [L]
+ErrorDocument 404 /index.php?md=404
+
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTP_HOST} ^(www\.)?adm\.mhstiki\.ga 
+RewriteRule ^(.*)$ https://adm.mhstiki.ga/$1 [R,L]
+</IfModule>
