@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">  
     <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/jquery.simplyscroll.css" media="all" type="text/css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style-min.css">
+    <link rel="stylesheet" href="css/style-1.css">
     <title>ISTI Jaya Mandiri Bali</title>
     
   </head>
@@ -58,13 +59,13 @@
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="img/slideshow/01.jpg" alt="First slide">
+      <img class="d-block" src="img/slideshow/01.jpg" alt="First slide">
       <div class="carousel-caption d-md-block ftco-animate">
         <h2>Test Test</h2>
       </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img/slideshow/02.jpg" alt="Second slide">
+      <img class="d-block" src="img/slideshow/02.jpg" alt="Second slide">
     </div>
   </div>
 </div>
@@ -78,15 +79,47 @@
             <div class="container mb-5">
                 <div class="row text-center ftco-animate">
                     <div class="col">
-                        <h3>About</h3>
+                        <h3>Surat Kuasa | Power of Attorney</h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col text-center ftco-animate">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, sed! Ut exercitationem fugiat eum! Ipsa dolorum quod illo voluptates nostrum.
+                        <div class="row">
+                            <div class="col-12">
+                                <a href=""><img class="imgpage" src="img/landingpage/suratkuasa-en.png"></a>
+                            </div>    
+                        </div>        
                     </div>
                     <div class="col text-center ftco-animate">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore natus totam quis dolorum expedita rem rerum tempora deleniti eaque atque!
+                    <div class="row">
+                            <div class="col-12">
+                            <a href=""><img class="imgpage" src="img/landingpage/suratkuasa-id.png"></a>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </a>
+    <a name="keputusan">
+        <section id="keputusan" class="about">
+            <div class="container mb-4">
+                <div class="row text-center ftco-animate">
+                    <div class="col">
+                        <h3>Surat Keputusan | Degree of board of Directors </h3>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col">
+                        
+                            <ul id="scroller">
+                                <li><a href=""><img src="img/landingpage/scrolling/surat-keputusan-01-en.png"></a></li>
+                                <li><a href=""><img src="img/landingpage/scrolling/surat-keputusan-02-en.png"></a></li>
+                                <li><a href=""><img src="img/landingpage/scrolling/surat-keputusan-01-id.png"></a></li>
+                                <li><a href=""><img src="img/landingpage/scrolling/surat-keputusan-02-id.png"></a></li>
+                            </ul>    
+                        
                     </div>
                 </div>
             </div>
@@ -97,7 +130,7 @@
             <div class="container text-center ftco-animate">
                 <div class="row">
                     <div class="col">
-                        <h3>Portfolio</h3>
+                        <h3>Gallery</h3>
                     </div>
                 </div>
             </div>
@@ -157,72 +190,18 @@
             </div>
         </section>
     </a>
-    <a name="contact">
-        <section id="contact" class="contact ftco-section ftco-no-pb ftco-partner">
-            <div class="container mb-5">
-                <div class="row pt-4 mb-4">
-                    <div class="col text-center ftco-animate">
-                        <h3>Contact Us</h3>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-body text-white bg-primary mb-3 text-center ftco-animate">
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                        <ul class="list-group">
-                            <li class="list-group-item ftco-animate">Alamat</li>
-                            <li class="list-group-item ftco-animate">Bali Kencana Resort I Blok C15</li>
-                            <li class="list-group-item ftco-animate">Angas Sari, Ungasan</li>
-                            <li class="list-group-item ftco-animate">Kuta Selatan Badung Bali</li>
-                          </ul>
-                    </div>
-                    <div class="col-lg-6">
-                        <form>
-                            <div class="form-group  ftco-animate">
-                              <label for="email">Email address</label>
-                              <input type="email" class="form-control" id="email">
-                            </div>
-                            <div class="form-group ftco-animate">
-                              <label for="nama">Nama</label>
-                              <input type="text" class="form-control" id="nama">
-                            </div>
-                            <div class="form-group ftco-animate">
-                              <label for="exampleFormControlTextarea1">Example textarea</label>
-                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                            <div class="form-group ftco-animate">
-                                <button type="button" class="btn btn-primary">Send</button>
-                            </div>
-                          </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </a>
-    <footer>
+
+    <a name="footer">
         <section id="footer" class="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col text-white text-center">
+                    <div class="col text-center">
                         <p>&copy;2020</p>
                     </div>
                 </div>
             </div>
         </section>
-    </footer>
-    <navbottom>
-        <section id="navbtton" class="navbtton">
-            <ul id="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portofolio">Portofolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </section>
-    </navbottom>
+    </a>
 
     <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
@@ -241,6 +220,13 @@
     <script src="js/scrollax.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/main.js"></script>
-
+    <script type="text/javascript" src="js/jquery.simplyscroll.js"></script>
+    <script type="text/javascript">
+      (function($) {
+        $(function() {
+          $("#scroller").simplyScroll();
+        });
+      })(jQuery);
+    </script>
   </body>
 </html>
