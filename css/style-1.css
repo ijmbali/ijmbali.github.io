@@ -4,17 +4,14 @@ html {
 .about{
     padding-top: 40px;
 }
-.imgpage{
-    text-align: center;
-    border: solid;
-    border-width: 3px;
-    border-radius: 15px;
-    padding: 5px;
-    border-color: #c0c0c0;
-}
 .footer{
     font-size: 10px;
 }
 #footer{
     background-color: dimgray;
+}
+.home{
+    padding-top: 40px;
+}
+@media only screen and (max-width: 600px) {
 }

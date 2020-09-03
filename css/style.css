@@ -5546,6 +5546,9 @@ button.bg-dark:focus {
   display: inline-flex !important; }
 
 @media (min-width: 576px) {
+  .imgpage{
+    width: 75px;
+  }
   .d-sm-none {
     display: none !important; }
   .d-sm-inline {
